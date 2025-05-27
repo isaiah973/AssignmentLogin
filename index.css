@@ -241,11 +241,11 @@ span {
 }
 }
 
-/*
- @media only screen and (min-width: 768px) {
-  .image-div {
+
+ @media only screen and (min-width: 601px) {
+  /* .image-div {
     display: none;
-  }
+  } */
   .google-btn img {
     margin-right: 25%;
     margin-left: 1rem;
@@ -255,20 +255,21 @@ span {
   margin-left: 0.3rem;
 }
 .info-wrapper {
-  height: 3rem;
+  height: 1rem;
   width: 70%;
   display: flex;
   flex-direction: column;
 
 } 
 .info-div {
-  height: 70%;
+  height: 60%;
   display: flex;
   align-items: start;
   justify-content: center;
-  margin-top: -3rem;
+ 
 }
 }
+/*
 @media only screen and (min-width: 1024px) {
   .image-div {
     display: block;
