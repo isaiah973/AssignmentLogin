@@ -22,7 +22,7 @@ section {
   width: 93%;
 }
 .info-div {
-  height: 100%;
+  height: 80%;
   flex: 3;
   display: flex;
   align-items: center;
@@ -206,7 +206,7 @@ span {
 }
 
 
-@media only screen and (min-width: 320px) {
+ @media only screen and (max-width: 600px) {
   .website-container {
   display: flex;
   align-items: center;
@@ -241,6 +241,7 @@ span {
 }
 }
 
+/*
  @media only screen and (min-width: 768px) {
   .image-div {
     display: none;
@@ -480,3 +481,5 @@ span {
 
 
 
+
+ */
