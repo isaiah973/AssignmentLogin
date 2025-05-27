@@ -255,19 +255,79 @@ span {
   margin-left: 0.3rem;
 }
 .info-wrapper {
-  height: 1rem;
   width: 70%;
   display: flex;
   flex-direction: column;
 
 } 
 .info-div {
-  height: 60%;
+  height: 80%;
   display: flex;
   align-items: start;
   justify-content: center;
  
 }
+
+input {
+  height: 3rem;
+  border: 1px solid rgb(223, 223, 223);
+  width: 100%; 
+  box-sizing: border-box;
+  margin-top: 0.6rem;
+  border-radius: 6px;
+  padding: 1rem;
+  outline: none;
+}
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 12px;
+  margin-top: 2rem;
+  border: none;
+}
+.fb-btn {
+  width: 50%;
+  padding: 0.75rem 0;
+  display: flex;
+  align-items: center;
+  font-size: 0.6rem;
+  font-weight: 900;
+  background: white;
+  border: 2px solid rgb(237, 237, 237);
+  border-radius: 4px;
+}
+.google-btn {
+  width: 50%;
+  padding: 0.7rem 0;
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: 900;
+  background: white;
+  border: 2px solid rgb(237, 237, 237);
+  border-radius: 4px;
+}
+.create-div {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.create-div button {
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 0.7rem;
+  font-weight: 900;
+  background: rgb(244, 244, 244);
+  border: 2px solid rgb(237, 237, 237);
+  border-radius: 4px;
+  border: none;
+  margin-top: 0.1rem;
+}
+
 }
 /*
 @media only screen and (min-width: 1024px) {
