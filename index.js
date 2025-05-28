@@ -12,7 +12,16 @@ loginButton.addEventListener("click", () => {
   const userPassword = passwordInput.value;
   if(userEmail === userLoginDetails.Email && userPassword === userLoginDetails.Password) {
     alert("Login Successful!");
-  } else {
-    alert("Incorrect Email or Password")
+  } else if (userEmail === "" && userPassword === "") {
+    alert("Enter Email and Password");
+  } else if (userEmail === "") {
+    alert("Enter an Email")
+  } else if (userPassword === "") {
+    alert("Enter a Password")
   }
-});
+  else  {
+    alert("Incorrect Email or Password");
+  }
+    
+  
+}); 
